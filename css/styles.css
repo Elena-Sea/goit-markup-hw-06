@@ -735,7 +735,8 @@ position: relative;
 	display: flex;
 }
 
-.button.sent {
+.button.sent,
+.button.mod-form {
 	width: 200px;
 	height: 50px;
 
@@ -747,6 +748,7 @@ position: relative;
 	font-size: 16px;
 	line-height: 1.87;
 	letter-spacing: 0.06em;
+	color: var(--conditions-subcolor);
 
 	background-color: var(--conditions-color);
 	
@@ -770,8 +772,6 @@ position: relative;
 	font-size: 16px;
 	line-height: 1.88;
 	letter-spacing: 0.06em;
-
-	color: var(--conditions-subcolor);
 }
 
 /* Модальное окно */
@@ -826,4 +826,9 @@ position: relative;
 	
 	background: #FFFFFF;
 	border: 1px solid rgba(0, 0, 0, 0.1);border-radius: 50%;
+}
+
+.form-modal {
+	display: flex;
+	flex-direction: column;
 }
