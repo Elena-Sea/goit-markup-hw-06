@@ -698,6 +698,11 @@ position: relative;
 	background: rgba(255, 255, 255, 0.1);
 }
 
+.send {
+	display: flex;
+	align-items: flex-end;
+}
+
 .send-input {
 	width: 358px;
 	height: 50px;
@@ -724,6 +729,7 @@ position: relative;
 
 .send-box {
 	display: flex;
+	flex-direction: column;
 }
 
 .button.sent{

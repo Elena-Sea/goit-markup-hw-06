@@ -260,18 +260,18 @@
             </ul>
           </div>
         </div>
-        <div class="send">
-          <p class="send-label">Подпишитесь на рассылку</p>
+        <form class="send">
           <div class="send-box">
-            <input type="email" class="send-input" placeholder="E-mail">
-            <button type="submit" class="button sent">
-              <span class="send-losung">Подписаться</span>
-              <svg class="icon-send" width="24" height="24">
-                <use href="./images/icons.svg#icon-icon-send-opt"></use>
-              </svg>
-            </button>
+            <label for="subscribe" class="send-label">Подпишитесь на рассылку</label>
+            <input type="email" class="send-input" placeholder="E-mail" id="subscribe" />
           </div>
-        </div>
+          <button type="submit" class="button sent">
+            <span class="send-losung">Подписаться</span>
+            <svg class="icon-send" width="24" height="24">
+              <use href="./images/icons.svg#icon-icon-send-opt"></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </footer>
   </body>
